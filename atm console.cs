@@ -70,7 +70,7 @@ namespace ATMSystem
                     Console.Write("Choose an option: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
 
-                    switch (choice)           // atm memu (controlling branching)
+                    switch (choice)           // atm menu (controlling branching)
                     {
                         case 1:
                             atm.CheckBalance();
